@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#temperature {
+  background-color: #ff8080;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin: 30px;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+}
+
+#humidity {
+  background-color: #80b3ff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin: 30px;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+}
+
+#light {
+  background-color: #ffff80;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin: 30px;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+}
