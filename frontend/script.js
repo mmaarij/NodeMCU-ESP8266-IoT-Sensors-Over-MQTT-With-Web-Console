@@ -40,9 +40,9 @@
 				document.getElementById("temp_data").innerHTML = message.payloadString + " °C";
 			} else if (message.destinationName === "maarij/iotProject/humidity") {
 				// display the humidity value in the web page
-				document.getElementById("humidity_data").innerHTML = message.payloadString + " %";
+				document.getElementById("humidity_data").innerHTML = parseInt(message.payloadString).toString() + " %";
 			} else if (message.destinationName === "maarij/iotProject/light") {
 				// display the light value in the web page
-				document.getElementById("light_data").innerHTML = message.payloadString + " %";
+				document.getElementById("light_data").innerHTML = parseInt(message.payloadString).toString() + " %";
 			}
 		}
