@@ -37,12 +37,12 @@
 			console.log("Message received: " + message.payloadString);
 			if (message.destinationName === "maarij/iotProject/temp") {
 				// display the temperature value in the web page
-				document.getElementById("temperature").innerHTML = "Temperature: " + message.payloadString;
+				document.getElementById("temp_data").innerHTML = message.payloadString + " °C";
 			} else if (message.destinationName === "maarij/iotProject/humidity") {
 				// display the humidity value in the web page
-				document.getElementById("humidity").innerHTML = "Humidity: " + message.payloadString;
+				document.getElementById("humidity_data").innerHTML = message.payloadString + " %";
 			} else if (message.destinationName === "maarij/iotProject/light") {
 				// display the light value in the web page
-				document.getElementById("light").innerHTML = "Light: " + message.payloadString;
+				document.getElementById("light_data").innerHTML = message.payloadString + " %";
 			}
 		}
