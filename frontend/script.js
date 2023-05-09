@@ -40,7 +40,7 @@
 				document.getElementById("temp_data").innerHTML = message.payloadString + " °C";
 				
 				if (parseFloat(message.payloadString) > 30) {
-				  document.getElementById("tempLED").style.backgroundColor = "#ff8080";
+				  document.getElementById("tempLED").style.backgroundColor = "#ff8c8c";
 				} else {
 				  document.getElementById("tempLED").style.backgroundColor = "#bbb";
 				}
@@ -50,7 +50,7 @@
 				document.getElementById("humidity_data").innerHTML = parseInt(message.payloadString).toString() + " %";
 				
 				if (parseFloat(message.payloadString) > 50) {
-				  document.getElementById("humidityLED").style.backgroundColor = "#80b3ff";
+				  document.getElementById("humidityLED").style.backgroundColor = "#b3ff80";
 				} else {
 				  document.getElementById("humidityLED").style.backgroundColor = "#bbb";
 				}

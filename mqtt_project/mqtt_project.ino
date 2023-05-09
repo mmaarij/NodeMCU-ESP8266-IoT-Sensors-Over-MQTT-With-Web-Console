@@ -163,7 +163,8 @@ void loop()
 float readLDR()
 {
   int rawValue = analogRead(LDR_DATA);
-  float percentage = map(rawValue, 200, 1023, 0, 100);
+  Serial.println(rawValue);
+  float percentage = map(rawValue, 200, 1024, 0, 100);
   return percentage;
 }
 
