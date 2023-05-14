@@ -47,3 +47,30 @@ h1 {
 	color: #fff;
 	background-color: #000;
 }
+
+#toggleBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+	margin-right: 30px;
+	height: 3em;
+	width: 6em;
+	border: none;
+	border-radius: 5px;
+	background-color: #0bb4ec;
+	color: white;;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#toggleBtn:hover {
+	background-color: #005f70;
+  }
+
+#graphContainer {
+	background-color: #f7f7f7;
+	margin: 20px;
+}
